@@ -37,7 +37,7 @@
 
 Таким образом вы получите подготовленные маршруты и схемы для дальнейшего описания вашего API.
 '''
-
+git init
 '''
 Подготовка:
 
@@ -102,3 +102,4 @@ async def root():
     return {"message": "Welcome to Taskmanager"}
 
 app.include_router(task_router)
+app.include_router(user_router)
