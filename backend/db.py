@@ -15,6 +15,7 @@ class MyModel(Base):
 # Create the engine and tables
 engine = create_engine('sqlite:///mydatabase.db')
 Base.metadata.create_all(engine)
+SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
 def print_table_creation_statements():
     metadata = MetaData()
