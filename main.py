@@ -178,6 +178,7 @@ from slugify import slugify
 Проверьте, выбрасываются ли исключения в ваших запросах.
 '''
 
+<<<<<<< HEAD
 # module_17_5 Использование БД в маршрутизации. Часть 2
 '''
 Задача "Маршрутизация заданий":
@@ -221,6 +222,8 @@ from slugify import slugify
 
 '''
 
+=======
+>>>>>>> 8b407fb099f43851ba87bdb630c20616e372149d
 #  main.py
 
 from fastapi import FastAPI
